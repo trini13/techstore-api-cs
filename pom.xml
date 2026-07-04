@@ -85,6 +85,13 @@
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<!-- AWS SDK v2 - SQS (Actividad 2.2: productor de eventos de auditoria) -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>sqs</artifactId>
+			<version>2.25.60</version>
+		</dependency>
 	</dependencies>
 
 	<build>
